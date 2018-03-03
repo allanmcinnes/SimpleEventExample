@@ -22,4 +22,4 @@ you could easily build a production-ready system from this starting point.
 
 ## Dependencies
 
-Uses the [Ceedling](https://github.com/ThrowTheSwitch/Ceedling) suite for unit testing.
+Uses the [Ceedling](https://github.com/ThrowTheSwitch/Ceedling) suite for unit testing, and also to manage the build of the example main.c. You'll need to install Ceedling, and execute `ceedling new Simple EventExample` (say *no* to overwriting project.yml), to run the tests.
