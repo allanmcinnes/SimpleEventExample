@@ -1,8 +1,9 @@
 // Events used in this system. Based on the sample code
 // at http://www.electronvector.com/blog/event-based-interfaces-for-testability,
-// although I used a tagged union because it simplified the event queue code.
-
-
+// although I used a tagged union instead of simulated inheritance.
+// This is slightly less memory-efficient than Matt's simulated OO approach 
+// (every allocated event is the size of the largest event subtype), but 
+// simplifies the rest of the implementation.
 
 #ifndef _EVENTS_H
 #define _EVENTS_H
