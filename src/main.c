@@ -29,7 +29,7 @@
 #include "event_producer.h"
 #include "event_consumer.h"
 
-int main(int argc, char* argv) {
+int main(int argc, char** argv) {
 
   char outbuf[256];
 
